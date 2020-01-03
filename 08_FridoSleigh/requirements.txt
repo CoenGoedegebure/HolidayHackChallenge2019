@@ -1,0 +1,5 @@
+sklearn
+imutils
+opencv-python
+numpy
+requests
