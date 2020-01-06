@@ -46,7 +46,7 @@ for seed in range(start_time, end_time):
     result = decrypt(cipher_text, key)
 
     if result[:4] == b'%PDF':
-        print(f'Found key: {seed}, key: {key} - {result[:4]}')
+        print(f'Found seed: {seed}, key: {key} - {result[:4]}')
         # Knowing the secret key, decrypt the entire file
         with open(encrypted_doc, "rb") as in_file:
             cipher_text = bytearray(in_file.read())
@@ -54,9 +54,11 @@ for seed in range(start_time, end_time):
 
             with open(output_doc, 'wb') as out_file:
                 out_file.write(result)
+                print(f'Wrote decrypted document to {output_doc}')
 
+        print("done.")
         exit(0)
     else:
-        print(f'      key: {seed}, key: {key} - {result[:4]}')
+        print(f'      seed: {seed}, key: {key} - {result[:4]}')
 
 # Found key: 1575663650, key: b5ad6a321240fbec - b'%PDF'
