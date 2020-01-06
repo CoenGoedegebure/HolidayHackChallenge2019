@@ -6,3 +6,10 @@ frido.py
 Machine Learning, image recognition, Captcha circumvention
 https://www.coengoedegebure.com
 
+#### 09_Elfu - Objective 9 - Retrieve Scraps of Paper from Server
+elfu.py
+
+#### 10_Crypto - Objective 10 - Recover Cleartext Document
+crypto.py
+
+
