@@ -61,4 +61,3 @@ for seed in range(start_time, end_time):
     else:
         print(f'      seed: {seed}, key: {key} - {result[:4]}')
 
-# Found key: 1575663650, key: b5ad6a321240fbec - b'%PDF'

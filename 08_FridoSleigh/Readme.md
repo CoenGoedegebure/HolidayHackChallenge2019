@@ -1,7 +1,7 @@
-# Frido
+# Bypassing the Frido Sleigh CAPTEHA
 
 This is my solution for Objective 8 of the SANS Holiday Hack Challenge 2019.
-You can read its purpose on my blog https://www.coengoedegebure.com
+You can read the writeup for Objective 8 on https://www.coengoedegebure.com
 
 This is a bit of a Spartan script. It does have a neat progress bar, but no command line options to call the different stages.
 Therefore, before you run it, there are a few things you should do in a sequence:

@@ -23,7 +23,9 @@ def execute_query(session, input_data):
         return True
 
     # Find the possible Error line
-    error = [line.replace("<br>", "\n") for line in result.text.split('\n') if "Error:" in line]
+    error = [line.replace("<br>", "\n")
+             for line in result.text.split('\n')
+             if "Error:" in line]
 
     if error:
         print(f'SQL {error[0]}')
