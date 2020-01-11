@@ -14,5 +14,5 @@ This repository also contains the [final document](https://github.com/CoenGoedeg
 [10_Crypto/crypto.py](10_Crypto/crypto.py)
 
 #### Objective 12 - Filter Out Poisoned Sources of Weather Data
-[12_Crypto/srf.py](12_Crypto/srf.py)
+[12_SleighRouteFinder/srf.py](12_SleighRouteFinder/srf.py)
 
