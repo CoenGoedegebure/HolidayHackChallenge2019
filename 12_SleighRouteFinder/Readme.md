@@ -3,4 +3,4 @@ Filter Out Poisoned Sources of Weather Data
 
 Download the http.log.json file here: https://downloads.elfu.org/http.log.gz
 
-Read the writeup for Objective 12 on https://www.coengoedegebure.com/
+Read the writeup for Objective 12 on https://www.coengoedegebure.com/sans-holiday-hack-2019-write-up
